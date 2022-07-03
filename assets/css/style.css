@@ -1,0 +1,379 @@
+/* 1.vị trí ?
+2.kích thước (width, heigh)
+3.màu sắc
+4.kiểu dáng(kiểu chữ,hình tròn , vuông)
+*/
+.clear {
+    clear: both;
+}
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    scroll-behavior:smooth ;
+    font-weight: 700;
+    /* -webkit-text-size-adjust: 100%; */
+}
+.text-center{
+    text-align: center !important;
+}
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-3{
+    float: left;
+    width: 32%;
+}
+.col-4{
+    float: left;
+    width: 25%;
+}
+.mt-8{
+    margin-top: 8px;
+}
+.mt-16{
+    margin-top: 16px;
+}
+.col-half{
+    width: 50%;
+}
+.col-full{
+    width: 100%;
+}
+body{
+    background: url(/assets/img/cay.png) no-repeat 0/12.5%;
+    background-position: 0 120px;
+}
+
+#main {
+    /* margin-left: 12.5%; */
+}
+
+#header {
+    height: 46px;
+    top: 0;
+    left:0;
+    right: 0;
+
+    /* position: fixed; */
+    /* z-index: 1; */
+    /* overflow: hidden; */
+    /* padding-top: 20px; */
+}
+#nav {
+    display: inline-block;
+    line-height: 27px;
+    width: 100%;
+    padding: 0;
+    margin-left: 12.5%;
+
+}
+#nav .logo{
+    display: inline-block;
+    box-sizing:border-box;
+    vertical-align: middle;
+    margin: 0;
+    padding-right:80px;
+
+}
+#nav>li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+}
+#nav>li>a{
+    color: #000;
+    text-transform: uppercase;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 20px;
+}
+#nav>li:hover>a {
+    /* display: block; */
+    color: red;
+}
+#slogan {
+    padding:200px 0;
+    display: block;
+    /* position: relative; */
+    margin-left: 12.5%;
+}
+#slogan .slogan-content {
+    display: block;
+    /* position: absolute; */
+    width: 80%;
+}
+#slogan .slogan-content span{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+}
+#slogan .slogan-content h2{
+    font-size: 60px;
+    margin: 0;
+    line-height: 75px;
+    /* font-weight: 300; */
+}
+#slogan .slogan-content p{
+    font-size: 20px;
+    line-height: 28px;
+    display: block;
+}
+.slogan-footer .btn{
+    background-color: #ff817e;
+    /* border-radius: 2px; */
+    display: inline-block;
+    font-size: 24px;
+    padding: 15px 25px;
+    margin-right: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.slogan-footer i{
+    color: #000;
+    border-radius: 3px !important;
+    color: coral;
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.slogan-footer a{
+    box-sizing: border-box;
+}
+#about{
+    padding-bottom: 50px;
+    width: 100%%;
+    height: auto;
+    padding-right: 40px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-bottom: 80px;
+}
+#about .hoa1 {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+}
+#about .logo2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -90px;
+    margin-bottom: 50px;
+    vertical-align: middle;
+}
+#about h2{
+    text-align: center;
+    text-transform: uppercase ;
+    opacity: 0.8;
+}
+#about h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+#about .hoa2{
+    display: block;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: -36px;
+}
+#about p{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -25px;
+}
+.btn2{
+    background-color: #ff817e;
+    color: #fff;
+    /* border-radius: 2px; */
+    display: block;
+    font-size: 24px;
+    padding: 15px 25px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 100px;
+    font-weight: 500;
+}
+#slide{
+    margin-left: -8px;
+    margin-right: -8px;
+    display: inline-block;
+    margin-bottom: 190px;
+    box-sizing: border-box;
+}
+#slide .slide-list{ 
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 90px;
+}
+#slide .slide-img{
+    margin-top: 15px;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 95;
+}
+#dv{
+    margin-right:15% ;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+#dv h1{
+    font-size: 42px;
+    /* font-weight: 700px; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+}
+#dv p{
+font-size: 27px;
+font-weight: 300;
+text-align: center;
+box-sizing: border-box;
+margin-bottom: 15%;
+}
+#member{
+    display: inline-block;
+    margin-bottom: 15%;
+    box-sizing: calc(100%);
+    margin-left: 20%;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+#member .member-list{
+    display: inline-block;
+    max-width: 80%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#member .member-item{
+    text-align: center;
+    display: inline-block;
+    text-align: justify;
+    padding: 8px;
+}
+#member img{
+    width: 95%%;
+}
+#member h2{
+    font-size: 30px; 
+    box-sizing: calc(150px);
+}
+#member p{
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#mes{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+#mes img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 2%;
+}
+#mes p{
+    text-align: center;
+    size: 20px;
+    margin-bottom: 7%;
+}
+#mes h1{
+    text-align: center;
+    margin-bottom: 70px;
+}
+#team{
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    text-align: center;
+    margin-bottom: 10%;
+}
+#team h1{
+    font-size: 30px;
+    text-align: center;
+}
+#team p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: 120px;
+}
+#team h6{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+#team .team-list{
+    box-sizing: border-box;
+}
+#team .team-item{
+    display: inline-block;
+    float: left;
+    width: 30%;
+
+}
+#team img{
+    width: 95%
+    
+}
+#team .team-social i{
+    color:#ff817e !important;
+    font-size: 20px;
+    padding: 8px;
+}
+#service {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+#service .service-2{
+
+}
+#footer {
+    display: block;
+}
+#footer .navi{
+    display: inline-block !important;
+}
+#footer .navi li{
+    text-align: center;
+    vertical-align: bottom;
+    float: left;
+}
+.anh1{
+    width: 100%px;
+    height: 345px;
+    object-fit:fill;
+}

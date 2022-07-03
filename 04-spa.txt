@@ -1,0 +1,11 @@
+header
+slogan
+about
+slider
+dv	-	dịch vụ
+nv	-	nhân viên
+service 
+blog
+contact	-	 đăng ký
+footer
+
