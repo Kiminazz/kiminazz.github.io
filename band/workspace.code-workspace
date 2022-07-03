@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\mybond"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "w3_band"
+	}
+}
