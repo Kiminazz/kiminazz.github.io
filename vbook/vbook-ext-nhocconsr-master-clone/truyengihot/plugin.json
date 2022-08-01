@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "Truyện Gì Hot",
+    "author": "Nhocconsr",
+    "version": 3,
+    "source": "https://truyengihot.net",
+    "regexp": "(www.)?truyengihot.net/[0-9a-z-]+.html",
+    "description": "Đọc truyện tranh thôi nhé!",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "comic",
+    "tag": "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

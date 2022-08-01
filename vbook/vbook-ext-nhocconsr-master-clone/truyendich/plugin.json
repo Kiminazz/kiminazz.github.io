@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện Dịch",
+    "author": "Nhocconsr",
+    "version": 3,
+    "source": "https://truyendich.com",
+    "regexp": "(www.)?truyendich.com/[0-9a-z-]+",
+    "description": "Đọc truyện trên trang Truyendich.com",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type" : "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

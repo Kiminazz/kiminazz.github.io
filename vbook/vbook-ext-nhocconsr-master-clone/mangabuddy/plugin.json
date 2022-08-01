@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "Manga Buddy",
+    "author": "Nhocconsr",
+    "version": 7,
+    "source": "https://mangabuddy.com",
+    "regexp": "(www.)?mangabuddy.com/[0-9a-z-]+/?$",
+    "description": "Fix lỗi ảnh do đổi sv ảnh",
+    "locale": "en-EN",
+    "language": "javascript",
+    "type": "comic",
+    "tag" : "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

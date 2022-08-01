@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "Kho Truyện Tranh",
+    "author": "Nhocconsr",
+    "version": 3,
+    "source": "https://khotruyentranhz.com",
+    "regexp": "(www.)?khotruyentranhz.com/truyen/[0-9a-z-]+",
+    "description": "Đọc truyện trên trang khotruyentranh.com",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
